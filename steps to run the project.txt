@@ -1,0 +1,15 @@
+Steps to build this project: 
+
+
+1. Download all the files and save it in your PC.
+2. Go to your ReactJS projects workspace, create new react app in that workspace by using this command: create-react-app project-name
+3. Replace all the "public" and "src" folder contents with this project content.
+4. Make sure to npm install the firebase apis in the same folder: npm install --save firebase
+5. Google Firebase related code is defined in src/Config folder. 
+6. You have to replace the contents of "const DB_CONFIG" variable in "config.js" file with your own Google Firebase database.
+7. Refer this video for that (watch till 0:54 only): https://www.youtube.com/watch?v=e1Cm-jj0CG4 
+8. Now, you are good to go. Now, run command: npm start
+9. You should be able to play around the app, by adding task and realtime you can see that entry in your firebase database.
+10. Also, you should be able to delete the existing tasks by clicking the cross button and the entry should omit from the firebase database.
+
+      
